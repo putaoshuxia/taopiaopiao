@@ -1,0 +1,29 @@
+.topBar {
+  display: flex;
+  padding: 4px 20px; }
+  .topBar__city {
+    color: #000;
+    font-size: 14px;
+    margin-top: 5px; }
+    .topBar__city::after {
+      content: "";
+      display: inline-block;
+      margin-left: 6px;
+      top: 10px;
+      width: 0;
+      height: 0;
+      border-width: 4px;
+      border-style: solid;
+      border-color: #000 transparent transparent; }
+  .topBar__search {
+    outline: none;
+    flex: 1;
+    height: 26px;
+    background-color: #f6f5f5;
+    border: none !important;
+    margin: 0 14px; }
+  .topBar__scan {
+    margin-top: 5px;
+    width: 20px;
+    height: 20px;
+    background: url("../../../icons/scan.svg") 50%/contain no-repeat; }
