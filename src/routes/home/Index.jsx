@@ -16,7 +16,7 @@ class Home extends Component {
         return (
             <div className="home">
                 <TopBar city="杭州"  showCityLayer={this.showCityLayer}/>
-                首页demo
+                首页demo1
             </div>
         );
     }
