@@ -3,6 +3,9 @@ import { BrowserRouter , Route , Switch , Redirect} from 'react-router-dom';
 import './App.css';
 
 import Home from './routes/home/Index';
+import User from './routes/user/Index';
+import Detail from './routes/detail/Index';
+import Seat from './routes/seat/Index';
 
 
 class App extends Component {
@@ -14,7 +17,9 @@ class App extends Component {
       }
       <Switch>
         <Route path="/" exact component={Home}/>
-        
+        <Route path="/user" exact component={User}/>
+        <Route path="/detail" exact component={Detail}/>
+        <Route path="/seat" exact component={Seat}/>
       </Switch>   
       </BrowserRouter>
     );
