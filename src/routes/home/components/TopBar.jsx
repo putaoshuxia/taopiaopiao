@@ -14,7 +14,6 @@ const TopBar = ({ city ,showCityLayer}) => {
             <div className="topBar__city" onClick={showCityLayer}>{ city }</div>
             <input type="text" className="topBar__search"/>
             <div className="topBar__scan"/>
-            
         </div>
     );
 };
