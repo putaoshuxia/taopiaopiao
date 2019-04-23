@@ -15,6 +15,7 @@
 }
 
 .slick-next, .slick-prev {
+  display: none !important;
   font-size: 0;
   line-height: 0;
   top: 50%;
