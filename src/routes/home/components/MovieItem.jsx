@@ -2,7 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './MovieItem.css'
 
+
+
 const MovieItem = ({data}) => {
+    
     return (
         <div className="movieItem" key={data.name}>
             <div className="movieItem__poster">

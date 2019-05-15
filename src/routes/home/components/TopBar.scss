@@ -2,7 +2,9 @@
     display: flex;
     padding: 4px 20px;
 
-
+    input {
+        text-indent: 6px;
+    }
     &__city {
         color: #000;
         font-size: 14px;

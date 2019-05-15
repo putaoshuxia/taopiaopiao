@@ -1,6 +1,8 @@
 .topBar {
   display: flex;
   padding: 4px 20px; }
+  .topBar input {
+    text-indent: 6px; }
   .topBar__city {
     color: #000;
     font-size: 14px;
